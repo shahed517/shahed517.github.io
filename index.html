@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
-	<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%28>🌐</text></svg>">
+	<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%32>🌐</text></svg>">
   <style>
             .blink {
                 animation: blinker 1.5s linear infinite;
@@ -67,7 +67,7 @@
   		<li>07.28.23: Received my TOEFL scores! Check my report here.</li>
 	        <li>07.16.23: Finished the Health track from Oxford Machine Learning Summer School, 2023. Great Experience!</li>
   		<li>06.22.23: Latest research paper on multi-modal medical image segmentation got accepted in Biomedical Signal Processing and Control (Q1 journal, IF: 5.1) </li>
-		<li>04.15.23: Got accepted into the <a hef="https://www.oxfordml.school/">Oxford Machine Learning Summer School (OxML 2023)</a>. Registered for the MLxHealth track. </li>
+		<li>04.15.23: Got accepted into the <a href="https://www.oxfordml.school/">Oxford Machine Learning Summer School (OxML 2023)</a>. Registered for the MLxHealth track. </li>
   		<li>25.09.22: Paper accepted at Computers in Medicine and Biology (Q1 journal, IF: 6.69) </li>
 	      </ul>
             </td>
@@ -78,9 +78,9 @@
 	<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
             <td style="padding:20px;width:100%;vertical-align:middle">
-              <heading>Research</heading>
+              <heading>Publications</heading>
               <p>
-                I'm interested in computer vision, machine learning, optimization, and image processing. Much of my research is about inferring the physical world (shape, motion, color, light, etc) from images. Representative papers are <span class="highlight">highlighted</span>.
+                Representative papers are <span class="highlight">highlighted</span>.
               </p>
             </td>
           </tr>
@@ -96,7 +96,7 @@
               <a href="https://www.sciencedirect.com/science/article/abs/pii/S1746809423006316">
                 <papertitle>COMA-Net: Towards generalized medical image segmentation using complementary attention guided bipolar refinement modules</papertitle>
               </a> 
-	      <strong class="blink"> <FONT COLOR="#FF0000">new</FONT> </strong>
+	      <plaintext class="blink"> <FONT COLOR="#FF0000">new</FONT> </plaintext>
               <br>
               <strong>Shahed Ahmed</strong>, 
               <a href="http://khasan.buet.ac.bd/">Md.Kamrul Hasan</a>
@@ -128,176 +128,8 @@
               </p>
             </td>
           </tr>	
-		        
-					
-					
-          <tr onmouseout="hypernerf_stop()" onmouseover="hypernerf_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='hypernerf_image'><video  width=100% height=100% muted autoplay loop>
-                <source src="images/hypernerf_after.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-                </video></div>
-                <img src='images/hypernerf_before.jpg' width="160">
-              </div>
-              <script type="text/javascript">
-                function hypernerf_start() {
-                  document.getElementById('hypernerf_image').style.opacity = "1";
-                }
-
-                function hypernerf_stop() {
-                  document.getElementById('hypernerf_image').style.opacity = "0";
-                }
-                hypernerf_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://hypernerf.github.io/">
-                <papertitle>HyperNeRF: A Higher-Dimensional Representation
-for Topologically Varying Neural Radiance Fields</papertitle>
-              </a>
-              <br>
-							<a href="https://keunhong.com">Keunhong Park</a>,
-							<a href="https://utkarshsinha.com">Utkarsh Sinha</a>, 
-							<a href="https://phogzone.com/">Peter Hedman</a>,
-              <strong>Jonathan T. Barron</strong>, <br>
-							<a href="http://sofienbouaziz.com">Sofien Bouaziz</a>,
-							<a href="https://www.danbgoldman.com">Dan B Goldman</a>,
-							<a href="http://www.ricardomartinbrualla.com">Ricardo Martin-Brualla</a>, 
-							<a href="https://homes.cs.washington.edu/~seitz/">Steven M. Seitz</a>
-              <br>
-              <em>SIGGRAPH Asia</em>, 2021 
-              <br>
-              <a href="https://hypernerf.github.io/">project page</a>
-              /
-              <a href="https://arxiv.org/abs/2106.13228">arXiv</a>
-              <p></p>
-              <p>Applying ideas from level set methods to NeRF lets you represent scenes that deform and change shape.</p>
-            </td>
-          </tr> 
-
-          <tr onmouseout="nerfactor_stop()" onmouseover="nerfactor_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='nerfactor_image'>
-                  <img src='images/nerfactor_after.png' width="160"></div>
-                <img src='images/nerfactor_before.png' width="160">
-              </div>
-              <script type="text/javascript">
-                function nerfactor_start() {
-                  document.getElementById('nerfactor_image').style.opacity = "1";
-                }
-
-                function nerfactor_stop() {
-                  document.getElementById('nerfactor_image').style.opacity = "0";
-                }
-                nerfactor_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://people.csail.mit.edu/xiuming/projects/nerfactor/">
-              <papertitle>NeRFactor: Neural Factorization of Shape and Reflectance<br>
-Under an Unknown Illumination</papertitle>
-              </a>
-              <br>
-              <a href="https://people.csail.mit.edu/xiuming/">Xiuming Zhang</a>,
-              <a href="https://pratulsrinivasan.github.io/">Pratul Srinivasan</a>,
-              <a href="https://boyangdeng.com/">Boyang Deng</a>,<br>
-              <a href="https://www.pauldebevec.com/">Paul Debevec</a>,
-              <a href="http://billf.mit.edu/">William T. Freeman</a>,
-							<strong>Jonathan T. Barron</strong>
-              <br>
-              <em>SIGGRAPH Asia</em>, 2021 
-              <br>
-              <a href="https://people.csail.mit.edu/xiuming/projects/nerfactor/">project page</a>
-              /
-              <a href="https://arxiv.org/abs/2106.01970">arXiv</a>
-              /
-              <a href="https://www.youtube.com/watch?v=UUVSPJlwhPg">video</a>
-              <p></p>
-              <p>By placing priors on illumination and materials, we can recover NeRF-like models of the intrinsics of a scene from a single multi-image capture.</p>
-            </td>
-						
-          <tr onmouseout="dualfont_stop()" onmouseover="dualfont_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='dualfont_image'><img src='images/dualfont_after.png'></div>
-                <img src='images/dualfont_before.png'>
-              </div>
-              <script type="text/javascript">
-                function dualfont_start() {
-                  document.getElementById('dualfont_image').style.opacity = "1";
-                }
-
-                function dualfont_stop() {
-                  document.getElementById('dualfont_image').style.opacity = "0";
-                }
-                dualfont_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://arxiv.org/abs/2109.06627">
-                <papertitle>Scalable Font Reconstruction with Dual Latent Manifolds</papertitle>
-              </a>
-              <br>
-              <a href="http://www.cs.cmu.edu/~asrivats/">Nikita Srivatsan</a>,
-              <a href="http://siwu.io/">Si Wu</a>,
-              <strong>Jonathan T. Barron</strong>,
-              <a href="http://cseweb.ucsd.edu/~tberg/">Taylor Berg-Kirkpatrick</a>
-              <br>
-              <em>EMNLP</em>, 2021
-              <br>
-              <p></p>
-              <p>VAEs can be used to disentangle a font's style from its content, and to generalize to characters that were never observed during training.</p>
-            </td>
-          </tr>
-					
-          <tr onmouseout="mipnerf_stop()" onmouseover="mipnerf_start()"  bgcolor="#ffffd0">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='mipnerf_image'><video  width=100% height=100% muted autoplay loop>
-                <source src="images/mipnerf_ipe_yellow.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-                </video></div>
-                <img src='images/mipnerf_ipe_yellow.png' width="160">
-              </div>
-              <script type="text/javascript">
-                function mipnerf_start() {
-                  document.getElementById('mipnerf_image').style.opacity = "1";
-                }
-
-                function mipnerf_stop() {
-                  document.getElementById('mipnerf_image').style.opacity = "0";
-                }
-                mipnerf_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="http://jonbarron.info/mipnerf">
-                <papertitle>Mip-NeRF: A Multiscale Representation for Anti-Aliasing Neural Radiance Fields</papertitle>
-              </a>
-              <br>
-              <strong>Jonathan T. Barron</strong>,
-              <a href="https://bmild.github.io/">Ben Mildenhall</a>,
-              <a href="http://matthewtancik.com/">Matthew Tancik</a>, <br>
-              <a href="https://phogzone.com/">Peter Hedman</a>,
-              <a href="http://www.ricardomartinbrualla.com/">Ricardo Martin-Brualla</a>,
-              <a href="https://pratulsrinivasan.github.io/">Pratul Srinivasan</a>
-              <br>
-							<em>ICCV</em>, 2021 &nbsp <font color="red"><strong>(Oral Presentation, Best Paper Honorable Mention)</strong></font>
-              <br>
-              <a href="http://jonbarron.info/mipnerf">project page</a>
-              /
-              <a href="https://arxiv.org/abs/2103.13415">arXiv</a>
-              /
-              <a href="https://youtu.be/EpH175PY1A0">video</a>
-							/
-              <a href="https://github.com/google/mipnerf">code</a>
-              <p></p>
-              <p>NeRF is aliased, but we can anti-alias it by casting cones and prefiltering the positional encoding function.</p>
-            </td>
-          </tr> 
-
+		        					
+         
           <tr onmouseout="learnaf_stop()" onmouseover="learnaf_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
