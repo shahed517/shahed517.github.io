@@ -1,0 +1,9 @@
+Course Number: EEE-431
+Course Title: Digital Signal Processing II
+
+3 Credit Hours, 3 Contact Hours per Week
+
+Course Content:
+Spectral estimation of random processes: classical methods, minimum variance method, parametric methods: AR and ARMA spectral estimation, Levinson-Durbin algorithm, super resolution techniques: Pisarenko, and MUSIC. Adaptive signal processing: Applications, e.g., equalization, interference suppression, acoustic echo cancellation. FIR and IIR
+adaptive filters. Recursive least squares algorithm, steepest descent and Newton algorithm, least mean-square (LMS) algorithm, convergence analysis. Variable step-size LMS algorithm. Multirate DSP: Interpolation and decimation, single-stage and
+multistage implementation, design of anti-aliasing and anti-imaging filters. Polyphase representation of multirate systems. Multirate implementation of ideal LP filter, digital filter banks, narrowband filters. Perfect reconstruction filters banks. Short time Fourier transform, subband decomposition and wavelet transform, CWT, DWT, interscale relationship of DWT coefficients, multirate implementation. Applications of wavelet transform. 

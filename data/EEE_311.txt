@@ -1,0 +1,7 @@
+Course Number: EEE-311
+Course Title: Digital Signal Processing I
+
+3 Credit Hours, 3 Contact Hours per Week
+
+Course Content:
+Introduction to digital signal processing. Sampling, quantization and signal reconstruction. Analysis of discrete-time system in the time domain: impulse response model, difference equation model. Correlation: power signal, energy signal, applications. Z-transform and analysis of LTI systems. Frequency analysis of discrete-time signals: discrete Fourier series and discrete-time Fourier transform (DTFT). Frequency analysis of LTI systems. Discrete Fourier transform (DFT) and fast Fourier transform (FFT). Minimum phase, maximum phase and all pass systems. Calculation of spectrum of discrete-time signals. Digital filter design- linear phase filters, specifications, design using window, optimal methods; IIR filtersspecifications, design using impulse invariant, bi-linear ztransformation, least-square methods. 

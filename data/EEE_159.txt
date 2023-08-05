@@ -1,0 +1,10 @@
+Course Number: EEE-159
+Course Title: Digital Signal Processing II
+
+3 Credit Hours, 3 Contact Hours per Week
+
+Course Content:
+Laws of Electric Circuit: Ohm’s law, Kirchhoff’s voltage and current laws, delta wye transformation. Electrical networks: network analysis methods of branch and loop currents, method of node pair voltages, Thevenin’s and Norton’s theorems, magnetic concepts and units: magnetic field, right hand rule, magnetic flux density, Biot-Savart
+law, magnetic field intensity, measurement of magnetic flux, energy of magnetic field, characteristic of ferromagnetic materials, theory of ferromagnetism, B-H curve, hysteresis loss, eddy current and eddy current loss, total core loss, introduction to magnetic circuits. Electromagnetic forces: forces upon a current carrying conductor and charges particle moving in a magnetic field. Electromagnetic torque; electric motor. Electromagnetic induction and emf; Lenz’s law, Blv rule, elementary ac generator. General concepts and definitions. Instantaneous current, voltage and
+power, R, L, C, RL, RC, and RLC branches, Effective value, average value, form factor, crest factor, power real and reactive. Introduction to vector algebra. Impedance in polar and Cartesian forms. Sinusoidal single phase circuit analysis. Impedance in series, parallel branches, series parallel circuits. Network analysis- Thevenin’s
+theorem. Balanced poly phase circuits: three phase, four wire system of generated emfs, three phase three wire systems, balanced Y loads, balanced delta loads, power in balanced systems, power factor.
